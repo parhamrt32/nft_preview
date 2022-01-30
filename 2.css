@@ -1,0 +1,147 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 10% auto;
+  padding: 3%;
+  gap: 30px;
+  justify-content: space-around;
+  border: 0%;
+  box-sizing: border-box;
+  background-color: hsl(216, 50%, 16%);
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 350px;
+}
+.sub-container {
+  margin: auto;
+  background-color: hsl(216, 50%, 16%);
+}
+.nft-pic {
+  align-self: center;
+  max-width: 99%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nft-pic:hover {
+  opacity: 20%;
+  cursor: grab;
+}
+.view-pic {
+  background-color: hsl(216, 50%, 16%);
+  display: none;
+}
+.headline {
+  margin: 6% 0 2% 5%;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 50%, 16%);
+  font-size: 20px;
+}
+.headline:hover {
+  color: hsl(189, 60%, 62%);
+}
+.link-headline {
+  text-decoration: none;
+}
+
+.disc {
+  font-size: 14px;
+  margin: 6% 0 2% 5%;
+  color: hsl(0, 0%, 75%);
+  background-color: hsl(216, 50%, 16%);
+}
+
+.price_time_box {
+  display: flex;
+  margin: 6% 0 2% 5%;
+  justify-content: space-around;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+  align-items: center;
+  background-color: hsl(216, 50%, 16%);
+  flex-grow: 1;
+}
+
+.eth-pic {
+  text-align: center;
+  margin: auto;
+  padding-right: 2%;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.price-p {
+  color: hsl(189, 60%, 62%);
+  font-size: 100%;
+  background-color: hsl(216, 50%, 16%);
+  flex-grow: 2;
+}
+.time {
+  display: flex;
+  align-items: center;
+
+  background-color: hsl(216, 50%, 16%);
+}
+.time-pic {
+  margin: 0 2;
+  flex-grow: 1;
+  height: auto;
+  width: 20%;
+  background-color: hsl(216, 50%, 16%);
+}
+.time-p {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 75%);
+}
+.creator {
+  display: flex;
+  margin: 6% 0 2% 5%;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: hsl(216, 50%, 16%);
+  gap: 20px;
+  border-top: 1px solid rgb(110, 110, 110);
+  padding-top: 20px;
+}
+.creator-pic {
+  height: auto;
+  width: 20%;
+  background-color: hsl(216, 50%, 16%);
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 50%;
+}
+
+.creator-p {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 50%, 16%);
+  font-size: 17px;
+}
+
+.creator-p-s {
+  color: hsl(0, 0%, 61%);
+  background-color: hsl(216, 50%, 16%);
+}
+.link-creation {
+  text-decoration: none;
+  background-color: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+}
+
+.link-creation:hover {
+  color: hsl(189, 60%, 62%);
+}
